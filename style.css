@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul > a{
+    font-size: 18px;
+}
+
+#as{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1{
+    font-size: 60px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+
+#h1a{
+    font-size: 60px;
+    font-weight: 380;
+}
+
+.cara{
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 150px;
+    width: 100%;
+}
+
+#st{
+    font-size: 45px;
+    font-weight: 400;
+}
+#me{
+    background-color: rgba(209, 221, 235, 0.411);
+}
+#last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#last1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#myh1{
+    font-size: 50px;
+    font-weight: 650;
+}
+
+#myp{
+    font-size: 23px;
+}
+#pic{
+    width: 500px;
+}
+
+
+
+@media screen and (max-width:850px) {
+    #h1a{
+        font-size: 45px;
+        font-weight: 330;
+    }
+
+    #h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .cara{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 70px;
+        width: ;
+    }
+    #last{
+        flex-direction: column;
+    }
+    #last1{
+        flex-direction: column;
+    }
+    #myh1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    #myp{
+        font-size: 20px;
+    }
+    #pic{
+        width: 450px;
+    }
+}
